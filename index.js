@@ -50,8 +50,4 @@ mongoose.connect(mongoUrl, {
     console.log('MongoDB connected successfully');
   }).catch((error) => {
     console.error('MongoDB connection error:', error);
-<<<<<<< HEAD
   });
-=======
-  });
->>>>>>> efe5daf (initial commit)
