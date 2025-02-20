@@ -16,3 +16,7 @@ knex migrate: latest
 
 # seeding
 knex seed:run
+
+----- Additional Commands for migration and seeding -----
+### knex migrate:make migration_name  --- Create migration 
+### knex seed:make seed_name
