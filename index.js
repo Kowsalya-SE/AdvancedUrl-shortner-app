@@ -1,4 +1,5 @@
-require("dotenv").config();
+const env = require("dotenv");
+env.config();
 const express = require('express');
 const fs = require('fs');
 const http = require("http");
@@ -49,4 +50,8 @@ mongoose.connect(mongoUrl, {
     console.log('MongoDB connected successfully');
   }).catch((error) => {
     console.error('MongoDB connection error:', error);
+<<<<<<< HEAD
   });
+=======
+  });
+>>>>>>> efe5daf (initial commit)
